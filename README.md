@@ -14,7 +14,7 @@ Transformez une maquette en site web avec HTML & CSS
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/GabinRimbault/Booki/blob/dev/images/Booki.png)
 
 ## Tech Stack
 
