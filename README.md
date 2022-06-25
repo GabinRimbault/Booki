@@ -4,6 +4,10 @@
 
 Transformez une maquette en site web avec HTML & CSS
 
+## Changelog
+
+Tous les changements sont répertoriés dans le [Changelog](https://github.com/GabinRimbault/Booki/blob/dev/changelog.md)
+
 ## Color Reference
 
 | Color      | Hex                                                                  |
