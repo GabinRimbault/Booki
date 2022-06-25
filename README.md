@@ -1,4 +1,4 @@
-![GitHub](https://img.shields.io/github/license/GabinRimbault/Booki) ![GitHub repo file count](https://img.shields.io/github/directory-file-count/GabinRimbault/Booki)  ![GitHub last commit](https://img.shields.io/github/last-commit/GabinRimbault/Booki) ![GitHub top language](https://img.shields.io/github/languages/top/GabinRimbault/Booki)
+![GitHub](https://img.shields.io/github/license/GabinRimbault/Booki) ![GitHub repo file count](https://img.shields.io/github/directory-file-count/GabinRimbault/Booki)  ![GitHub last commit](https://img.shields.io/github/last-commit/GabinRimbault/Booki) ![GitHub top language](https://img.shields.io/github/languages/top/GabinRimbault/Booki) ![Twitter Follow](https://img.shields.io/twitter/follow/rimbault_gabin?label=Follow%20Me&style=social)
 
 # Projet 1 OpenClassroom Booki
 
