@@ -1,10 +1,310 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <!-- META DONNEES -->
     <meta charset="UTF-8">
-    <title>Booki</title>
+    <meta name="viewport" content="width-device-width, initial-scale-1.0, user-scalable-no">
+    <meta name="description" content="Booki - Planifié vos vacances simplement !" />
+
+    <!--Style -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;700&display=swap">
+
+
+    <title>Booki, simplifié vos vacances avec nous !</title>
 </head>
 <body>
+    <header class="container">
+        <a href="index.html"><img src="images/logo/Booki@3x.png" class="header-logo" alt="logo_Booki" /></a>
+        <nav>
+            <ul class="nav-list">
+                <li>
+                    <a href="#hebergements">Hébergements</a>
+                </li>
+                <li>
+                    <a href="#activites">Activités</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="container">
 
+        <!-- SEARCH -->
+        <section id="search" class="mt-20 mb-20">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+            <form method="get" class="search-form">
+                <button>
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+                <label for="ville"></label>
+                <input type="text" id="ville" name="ville" placeholder="Marseille, France"/>
+                <input type="submit" value="Rechercher"/>
+            </form>
+        </section>
+
+        <!-- FILTRES -->
+        <section class="mb-20" id="filtres">
+            <h2 class="mr-20">Filtres</h2>
+            <ul  id="filtres-list">
+                <li class="mr-20">
+                    <a class="flex-row-list" href="#">
+                        <i class="fas fa-money-bill-wave"></i>
+                        <p>Économique</p>
+                    </a>
+                </li>
+                <li class="mr-20">
+                    <a class="flex-row-list" href="#">
+                        <i class="fas fa-child-reaching"></i>
+                        <p>Familial</p>
+                    </a>
+                </li>
+                <li class="mr-20">
+                    <a class="flex-row-list" href="#">
+                        <i class="fas fa-heart"></i>
+                        <p>Romantique</p>
+                    </a>
+                </li>
+                <li class="mr-20">
+                    <a class="flex-row-list" href="#">
+                        <i class="fas fa-dog"></i>
+                        <p>Animaux autorisés</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- INFOS -->
+        <div class="mb-20 flex-row-list" id="infos">
+            <i class="fas fa-info"></i>
+            <p>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+
+        <!-- CONTENT -->
+        <div id="content">
+            <section id="hebergements">
+                <h2>Hébergements à Marseille</h2>
+
+                <!-- Article -->
+                <div id="articles-hebergements">
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                    <article>
+                        <a href="#">
+                            <img src="https://fakeimg.pl/170x80/" alt="">
+                            <h3>Auberge La Cannebière</h3>
+                            <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </a>
+                    </article>
+                </div>
+                <a href="#">Afficher plus</a>
+            </section>
+            <aside id="populaire">
+                <div class="flex-row-list">
+                    <h2>Les plus populaire</h2>
+                    <i class="fas fa-star"></i>
+                </div>
+                <article class="popular-article">
+                    <a href="#">
+                        <img src="https://fakeimg.pl/99x99/" alt="">
+                        <div class="right-infos">
+                            <div class="popular-infos">
+                                <h3>Auberge La Cannebière</h3>
+                                <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="popular-article">
+                    <a href="#">
+                        <img src="https://fakeimg.pl/99x99/" alt="">
+                        <div class="right-infos">
+                            <div class="popular-infos">
+                                <h3>Auberge La Cannebière</h3>
+                                <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+                <article class="popular-article">
+                    <a href="#">
+                        <img src="https://fakeimg.pl/99x99/" alt="">
+                        <div class="right-infos">
+                            <div class="popular-infos">
+                                <h3>Auberge La Cannebière</h3>
+                                <p class="p-12">Nuit à partir de <strong>25€</strong></p>
+                            </div>
+                            <div>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star blue-star"></i>
+                                <i class="fas fa-star grey-star"></i>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+            </aside>
+        </div>
+
+        <!-- ACTIVITES -->
+        <section id="activites">
+            <h2>Activités à Marseille</h2>
+            <div class="wrapper-activites">
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x390/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x180/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x100/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x390/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x100/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+                <article>
+                    <a href="#">
+                        <img src="https://fakeimg.pl/220x180/" alt="">
+                        <h3>Auberge La Cannebière</h3>
+                    </a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <h3>A Propos</h3>
+            <ul class="list-links-footer">
+                <li><a class="p-12" href="#">Fonctionnement du site</a></li>
+                <li><a class="p-12" href="#">Conditions générales de vente</a></li>
+                <li><a class="p-12" href="#">Données et confidentialité</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Nos Hébergement</h3>
+            <ul class="list-links-footer">
+                <li><a class="p-12" href="#">Charte qualité</a></li>
+                <li><a class="p-12" href="#">Soumettre votre hôtel</a></li>
+            </ul>
+        </section>
+        <section>
+            <h3>Assistance</h3>
+            <ul class="list-links-footer">
+                <li><a class="p-12" href="#">Centre d'aide</a></li>
+                <li><a class="p-12" href="#">Nous contacter</a></li>
+            </ul>
+        </section>
+    </footer>
 </body>
 </html>
