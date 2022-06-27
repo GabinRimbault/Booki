@@ -3,7 +3,7 @@
 <head>
     <!-- META DONNEES -->
     <meta charset="UTF-8">
-    <meta content="width-device-width, initial-scale-1.0, user-scalable-no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Booki - Planifié vos vacances simplement !" name="description"/>
 
     <!--Style -->
@@ -37,12 +37,16 @@
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <p>En plein centre-ville ou en pleine nature</p>
         <form class="search-form" method="get">
-            <button>
+            <button class="positon">
                 <i class="fas fa-map-marker-alt"></i>
             </button>
             <label for="ville"></label>
             <input id="ville" name="ville" placeholder="Marseille, France" type="text"/>
             <input type="submit" value="Rechercher"/>
+            <button class="loupe">
+                <i class="search fas fa-search"></i>
+            </button>
+
         </form>
     </section>
 
@@ -50,25 +54,25 @@
     <section class="mb-20" id="filtres">
         <h2 class="mr-20">Filtres</h2>
         <ul id="filtres-list">
-            <li class="mr-20">
+            <li class="filtres mr-20">
                 <a class="flex-row-list" href="#">
                     <i class="fas fa-money-bill-wave"></i>
                     <p>Économique</p>
                 </a>
             </li>
-            <li class="mr-20">
+            <li class="filtres mr-20">
                 <a class="flex-row-list" href="#">
                     <i class="fas fa-child-reaching"></i>
                     <p>Familial</p>
                 </a>
             </li>
-            <li class="mr-20">
+            <li class="filtres mr-20">
                 <a class="flex-row-list" href="#">
                     <i class="fas fa-heart"></i>
                     <p>Romantique</p>
                 </a>
             </li>
-            <li class="mr-20">
+            <li class="filtres mr-20">
                 <a class="flex-row-list" href="#">
                     <i class="fas fa-dog"></i>
                     <p>Animaux autorisés</p>
