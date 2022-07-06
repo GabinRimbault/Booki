@@ -179,7 +179,7 @@ header > a > img {
     padding: 0;
 }
 
-button.loupe{
+button.item-search{
     height: 50px;
     width: 50px;
     background-color: #0065FC;
@@ -191,7 +191,7 @@ button.loupe{
     left: -9999px;
 }
 
-button.loupe > i {
+button.item-search > i {
     color: #FFFFFF;
 }
 /*
@@ -228,25 +228,25 @@ button.loupe > i {
 --------------------------------------------------
 */
 
-#filtres {
+#filters {
     display: flex;
     align-items: center;
 }
 
-#filtres > h2 {
+#filters > h2 {
     margin-bottom: 0;
 }
 
-#filtres-list {
+#filters-list {
     display: flex;
 }
 
-#filtres-list > li > a {
+#filters-list > li > a {
     border: 2px solid #F2F2F2;
     border-radius: 100px;
 }
 
-#filtres-list > li > a > i {
+#filters-list > li > a > i {
     border-radius: 30px;
     color: #0065FC;
     height: 50px;
@@ -254,14 +254,14 @@ button.loupe > i {
     background-color: #DEEBFF;
 }
 
-#filtres-list > li > a > i:before {
+#filters-list > li > a > i:before {
     position: relative;
     top: 16px;
     left: 15px;
 
 }
 
-#filtres-list > li > a > p {
+#filters-list > li > a > p {
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -291,18 +291,18 @@ button.loupe > i {
     padding: 0 20px;
 }
 
-#populaire {
+#popular {
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 20px;
     flex-basis: 28%;
 }
 
-#populaire > .flex-row-list {
+#popular > .flex-row-list {
     justify-content: space-between;
 }
 
-#populaire > article {
+#popular > article {
     margin-bottom: 20px;
     background-color: white;
     border-radius: 15px;
@@ -311,16 +311,19 @@ button.loupe > i {
     height: 107px;
 }
 
-#populaire > article > a {
+#popular > article > a {
     display: flex;
 }
 
-#populaire > article:last-child {
+#popular > article:last-child {
     margin-bottom: 0;
 }
 
 .popular-article > a > img {
     border-radius: 10px 0 0 10px;
+    object-fit: cover;
+    height: 99px;
+    width: 99px;
 }
 
 .right-infos {
@@ -354,6 +357,8 @@ button.loupe > i {
 #articles-hebergements > article > a > img {
     border-radius: 10px 10px 0 0;
     width: 100%;
+    object-fit: cover;
+    height: 80px;
 }
 
 #articles-hebergements > article > a > h3,
@@ -369,11 +374,11 @@ button.loupe > i {
 --------------------------------------------------
 */
 
-#activites {
+#activities {
     margin-top: 65px;
 }
 
-#activites > .wrapper-activites {
+#activities > .wrapper-activites {
     height: 450px;
     display: flex;
     flex-direction: column;
@@ -382,16 +387,32 @@ button.loupe > i {
     align-content: space-between;
 }
 
-#activites > .wrapper-activites > article {
+#activities > .wrapper-activites > article {
     border-radius: 20px;
     box-shadow: 1px 1px 10px #e0e0e0;
 }
 
-#activites > .wrapper-activites > article > a > img {
+#activities > .wrapper-activites > article > a > img {
     border-radius: 20px 20px 0 0;
+    object-fit: cover;
 }
 
-#activites > .wrapper-activites > article > a > h3 {
+img.img_haute {
+    height: 390px;
+    width: 230px;
+}
+
+img.img_medium{
+    height: 180px;
+    width: 220px;
+}
+
+img.img_small {
+    height: 100px;
+    width: 220px;
+}
+
+#activities > .wrapper-activites > article > a > h3 {
     padding: 20px;
     margin-bottom: 0;
 }
@@ -436,15 +457,15 @@ article:hover{
     transform: scale(1.05);
 }
 
-#filtres-list > li:hover > a {
+#filters-list > li:hover > a {
     background-color: #DEEBFF;
 }
 
-#filtres-list > li:hover > a > p {
+#filters-list > li:hover > a > p {
     color: #0065FC;
 }
 
-#filtres-list > li:hover > a > i{
+#filters-list > li:hover > a > i{
     color: #DEEBFF;
     background-color: #0065FC;
 }
@@ -541,23 +562,23 @@ i.fas.fa-star:hover{
         left: -9999px;
     }
 
-    button.loupe{
+    button.item-search{
         position: inherit;
         top: inherit;
         left: inherit;
     }
 
-    #filtres{
+    #filters{
         flex-direction: column;
     }
 
-    #filtres-list{
+    #filters-list{
         flex-wrap: wrap;
         justify-content: center;
         margin-top: 20px;
     }
 
-    .filtres{
+    .filters{
         margin-top: 20px;
     }
 
@@ -574,11 +595,11 @@ i.fas.fa-star:hover{
         padding: 0;
     }
 
-    #populaire{
+    #popular{
         margin-bottom: 20px;
     }
 
-    #populaire > article{
+    #popular > article{
         height: 100%;
     }
 
@@ -594,6 +615,7 @@ i.fas.fa-star:hover{
     img{
         width: 100%;
         height: 180px;
+        object-fit: cover;
     }
 
     #articles-hebergements{
@@ -605,18 +627,37 @@ i.fas.fa-star:hover{
         width: 100%;
     }
 
-    #activites > .wrapper-activites{
+    #articles-hebergements > article > a > img {
+        height: 180px;
+    }
+
+    #activities > .wrapper-activites{
         height: inherit;
         flex-wrap: inherit;
         justify-content: inherit;
         align-content: inherit;
     }
-    #activites > .wrapper-activites > article {
+    #activities > .wrapper-activites > article {
         margin-bottom: 20px;
     }
 
-    #activites > h2 {
+    #activities > h2 {
         padding: 0 15px;
+    }
+
+    img.img_haute {
+        height: 750px;
+        width: 100%;
+    }
+
+    img.img_medium{
+        height: 750px;
+        width: 100%;
+    }
+
+    img.img_small {
+        height: 750px;
+        width: 100%;
     }
 
     footer{
