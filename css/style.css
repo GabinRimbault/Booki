@@ -574,7 +574,7 @@ i.fas.fa-star:hover{
 
     #filters-list{
         flex-wrap: wrap;
-        justify-content: center;
+        justify-content: left;
         margin-top: 20px;
     }
 
@@ -646,17 +646,17 @@ i.fas.fa-star:hover{
     }
 
     img.img_haute {
-        height: 750px;
+        height: 150px;
         width: 100%;
     }
 
     img.img_medium{
-        height: 750px;
+        height: 150px;
         width: 100%;
     }
 
     img.img_small {
-        height: 750px;
+        height: 150px;
         width: 100%;
     }
 
