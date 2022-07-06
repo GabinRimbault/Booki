@@ -323,7 +323,7 @@ button.item-search > i {
     border-radius: 10px 0 0 10px;
     object-fit: cover;
     height: 99px;
-    width: 99px;
+    min-width: 99px;
 }
 
 .right-infos {
@@ -608,8 +608,8 @@ i.fas.fa-star:hover{
     }
 
     .popular-article > a > img {
-        width: 250px;
-        height: 110px;
+        width: 135px;
+        height: 125px;
     }
 
     img{
@@ -686,6 +686,10 @@ i.fas.fa-star:hover{
 @media screen and (max-width: 425px){
     .container{
         max-width: 405px;
+    }
+
+    .popular-article > a > img {
+        min-width: 135px;
     }
 }
 
